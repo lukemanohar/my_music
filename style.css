@@ -94,11 +94,15 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(11, 4, 11);
   float: left;
 }
+#audio{
+  margin-left: 5vh;
+}
 #s{
   height: 10px;
   color: rgb(188, 187, 187);
   font-size: 17px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 13.5vh;
 }
 .heart-button {
   width: 30px;
@@ -108,7 +112,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: relative;
   cursor: pointer;
   outline: none;
-  margin-left: 10px;
+  margin-left: 13vh;
 }
 
 .heart-button:before {
@@ -130,32 +134,40 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
   margin-left: 10px;
 }
-
+#audio1{
+  margin-left: 12vh;
+}
 
 
 #p{
   color: rgb(188, 187, 187);
   font-size: 17px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 13.5vh;
+
 }
 #u{
   color: rgb(188, 187, 187);
   font-size: 17px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 13.5vh;
+
 }
 #i{
   color: rgb(188, 187, 187);
   font-size: 17px;
+  margin-left: 13.5vh;
+
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #imgdiv{
-  width: 98.6vh;
+  width: 106.6vh;
   height: 80vh;
   background-color: rgb(11, 4, 11);
 margin-left: 60.3%;
  
 float: left;
-margin-top: -81.4%;
+margin-top: -80.29vh;
 }
 audio::-webkit-media-controls-panel {
   background-color: rgb(160, 160, 160); /* Change background color */
@@ -358,11 +370,14 @@ margin-top: -20%;
 }
 @media (max-width: 768px) {
   #name {
-    margin-left: 10px;
+    margin-left: 5vh;
     font-size: 16px;
   }
+  #ovr{
+    margin-left: 5vh;
+  }
   #mtr{
-    margin-left: 30px;
+    margin-left: 6vh;
   }
 
   #button {
@@ -374,7 +389,10 @@ margin-top: -20%;
   #img {
     width: 300px;
     height: 200px;
-    margin-left: 14%;
+    margin-left: 10vh;
+  }
+  #button{
+    margin-left: 20vh;
   }
 
 
@@ -398,15 +416,22 @@ margin-top: -20%;
 
 
   #pno {
-    width: 45vh;
+    width: 58vh;
     height: auto;
-    margin-left: 5px;
+    margin-left: 3vh;
 
   }
   #gtr{
-    width: 45vh;
-    height: 38vh;
-    margin-left: 5px;
+    width: 58vh;
+    height: 43vh;
+    margin-left: 3vh;
+  }
+  #so{
+    margin-left: 3vh;
+  }
+  #st{
+    margin-left: 3vh;
+
   }
   #gtrdiv{
     width: 0px;
@@ -416,17 +441,28 @@ margin-top: -20%;
     width: 0px;
     height: 0px;
   }
+  #audio1{
+    margin-left: 1vh;
+    margin-left: 5vh;
+
+  }
   #ga{
-    margin-left: 8vh;
+    margin-left: 2vh;
+    margin-left: 10vh;
+
+  }
+  .heart-button{
+    margin-left: 5vh;
+    margin-top: 1.5vh;
   }
 
 
 #th{
   background-color: black;
-  width: 45vh;
-  height: 70vh;
-  margin-left: -22.7vh;
-  margin-top: 10vh;
+  width: 58vh;
+  height: 73vh;
+  margin-left: -23.5vh;
+  margin-top: 11vh;
 }
 #tha{
   margin-left: 1vh;
@@ -455,12 +491,13 @@ margin-top: -20%;
   #logo {
     width: 150px;
     height: 150px;
-    margin-left: 25%;
+    margin-left: 28%;
     margin-top: 5px;
   }
 
   #s, #p, #u, #i {
     font-size: 14px;
+    margin-left: 5vh;
   }
 
 }
