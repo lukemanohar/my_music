@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../webtechnology/m48/asset/site"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Music"
+	}
+}
